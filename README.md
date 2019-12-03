@@ -25,14 +25,21 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+It is a UI library that lets us build large scale apps quickly. It lets us break an app into smalle parts called compnents and then piece these together to form a larger complex app. 
+
 
 - [ ] What does it mean to _think_ in react?
+to break down parts of an app into components, which will make it easier to build and maintain.
+
 
 - [ ] Describe state.
+in other words its data. Its data that comes in and is set to state, from there we can use this data and change it to our liking.
 
 - [ ] Describe props.
+props are a way of passing data among components. for example one compnent will take in the state data we set the prop as variable, then we can pass this data around to other components by using props
 
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+A side effect is anything that affects something outside the scope of the function being executed., sync it with the dependency array at the vey end.
 
 ## Project Set Up
 
